@@ -12,7 +12,7 @@ struct Record
 {
     char name[100];
     char country[100];
-    int phone;
+    signed long long int phone;
     char accountType[10];
     int accountNbr;
     double amount;
